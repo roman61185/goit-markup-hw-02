@@ -1,0 +1,170 @@
+body {
+  color: var(--text-color);
+  background-color: var(--fon-color);
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --text-color: #2e2f42;
+  --fon-color: #e5e5e5;
+  --navy-blue: #4d5ae5;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --white: #ffffff;
+  --blue: #404bbf;
+  --corn: #e7e9fc;
+}
+
+.link {
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--slate);
+}
+
+.link:active {
+  color: var(--navy-blue);
+}
+
+.logo {
+  color: var(--navy-blue);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.logo2 {
+  color: var(--text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.logo3 {
+  color: var(--cloud);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.addres {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.addres:active {
+  color: var(--navy-blue);
+}
+
+.phone {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.phone:active {
+  color: var(--navy-blue);
+}
+
+header {
+  background-color: var(--white);
+}
+
+.title {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.btn {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  background-color: var(--navy-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--navy-blue);
+}
+
+.btn:active {
+  background-color: var(--blue);
+}
+
+.title-link {
+  background-color: var(--text-color);
+}
+
+p {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list {
+  background-color: var(--cloud);
+}
+
+.foot {
+  background-color: var(--text-color);
+}
+
+.pfoot {
+  color: var(--corn);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn-text {
+  color: var(--navy-blue);
+  background-color: var(--cloud);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px var(--corn);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-text:active {
+  color: var(--white);
+  background-color: var(--navy-blue);
+  border: 1px var(--corn);
+  border-radius: 4px;
+}
+
+.desk {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.caption {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+}
