@@ -1,8 +1,7 @@
 body {
   color: var(--text-color);
-  background-color: var(--fon-color);
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto Mono", monospace;
+  background-color: var(--white);
+  font-family: "Roboto Mono", sans-serif;
 }
 
 ul {
@@ -46,6 +45,7 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  text-transform: uppercase;
 }
 
 .logo2 {
@@ -54,6 +54,7 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  text-transform: uppercase;
 }
 
 .logo3 {
@@ -62,6 +63,7 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  text-transform: uppercase;
 }
 
 .addres {
@@ -70,7 +72,9 @@ a {
   line-height: 1.5;
 }
 
-.addres:active {
+.addres:active, 
+.addres:hover,
+.addres:focus {
   color: var(--navy-blue);
 }
 
@@ -80,12 +84,14 @@ a {
   line-height: 1.5;
 }
 
-.phone:active {
+.phone:active,
+.phone:hover,
+.phone:focus {
   color: var(--navy-blue);
 }
 
-header {
-  background-color: var(--white);
+.section-text {
+  background-color: var(--fon-color);
 }
 
 .title {
@@ -126,7 +132,7 @@ p {
 }
 
 .list {
-  background-color: var(--cloud);
+  background-color: var(--white);
 }
 
 .foot {
@@ -150,7 +156,9 @@ p {
   cursor: pointer;
 }
 
-.btn-text:active {
+.btn-text:active,
+.btn-text:hover,
+.btn-text:focus {
   color: var(--white);
   background-color: var(--navy-blue);
   border: 1px var(--corn);
