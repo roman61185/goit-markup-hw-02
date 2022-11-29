@@ -90,9 +90,7 @@ a {
   color: var(--navy-blue);
 }
 
-.section-text {
-  background-color: var(--fon-color);
-}
+
 
 .title {
   color: var(--white);
@@ -132,7 +130,7 @@ p {
 }
 
 .list {
-  background-color: var(--white);
+  background-color: var(--cloud);
 }
 
 .foot {
@@ -175,4 +173,8 @@ p {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.1;
+}
+
+.text-foto {
+  background-color: #ffffff;
 }
